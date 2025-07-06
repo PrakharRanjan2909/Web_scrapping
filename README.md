@@ -52,8 +52,8 @@ requests==2.31.0
 
 ## Installation & Setup
 ``` bash
-git clone <repository-url>
-cd ...
+git clone https://github.com/PrakharRanjan2909/Web_scrapping.git
+cd Web_Scrapping/
 pip install -r requirements.txt
 ```
 
