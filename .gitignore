@@ -1,0 +1,228 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Web Scraping Specific Files
+# ============================
+
+# Output data files - Block most but allow specific ones
+*.xlsx
+*.xls
+
+# Block large/temporary output files but allow sample/demo files
+temp_*.csv
+temp_*.json
+large_*.csv
+large_*.json
+test_*.csv
+test_*.json
+
+# Allow specific output files for demonstration
+!sample_data.csv
+!sample_data.json
+!demo_output.csv
+!demo_output.json
+!myntra_sample.csv
+!myntra_sample.json
+!nykaa_sample.csv
+!nykaa_sample.json
+
+
+# ChromeDriver and WebDriver files
+chromedriver.exe
+chromedriver
+geckodriver.exe
+geckodriver
+webdrivers/
+
+# Screenshots and debug files
+screenshots/
+debug_screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Log files
+*.log
+logs/
+scraping_logs/
+selenium.log
+
+# Cache files
+.cache/
+cache/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Configuration files with sensitive data
+config.json
+secrets.json
+credentials.json
+api_keys.txt
+
+# Browser profiles and data
+browser_data/
+profiles/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+
+# Development files
+dev_notes.txt
+todo.txt
+notes.md
+personal_notes.txt
+
+# Error dumps
+error_*.html
+page_source_*.html
+
+# Python virtual environment
+Scripts/
+Include/
+Lib/
+pyvenv.cfg
