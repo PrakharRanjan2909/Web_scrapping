@@ -1,17 +1,17 @@
-Web Scraping Assignment - E-commerce Product Data Extraction
-Description
+#Web Scraping Assignment - E-commerce Product Data Extraction
+##Description
 This project is a comprehensive web scraping solution designed to extract product information from major e-commerce platforms including Nykaa Fashion and Myntra. The scraper utilizes advanced Selenium-based automation with robust anti-bot protection mechanisms to gather detailed product data including prices, ratings, reviews, images, and availability information. The solution is built with enterprise-grade error handling, dynamic content management, and exports data in both CSV and JSON formats for maximum compatibility.
 
-Objectives
-Data Extraction: Automatically collect comprehensive product information from e-commerce websites
-Anti-Bot Evasion: Implement sophisticated techniques to bypass detection mechanisms
-Dynamic Content Handling: Manage JavaScript-rendered content and lazy-loaded elements
-Data Quality: Ensure accurate and complete data extraction with proper validation
-Scalability: Design a modular, object-oriented architecture for easy maintenance and extension
-Export Flexibility: Provide structured data output in multiple formats (CSV, JSON)
-Production Readiness: Build a robust solution suitable for real-world applications
+##Objectives
+1. Data Extraction: Automatically collect comprehensive product information from e-commerce websites
+2. Anti-Bot Evasion: Implement sophisticated techniques to bypass detection mechanisms
+3. Dynamic Content Handling: Manage JavaScript-rendered content and lazy-loaded elements
+4. Data Quality: Ensure accurate and complete data extraction with proper validation
+5. Scalability: Design a modular, object-oriented architecture for easy maintenance and extension
+6. Export Flexibility: Provide structured data output in multiple formats (CSV, JSON)
+7. Production Readiness: Build a robust solution suitable for real-world applications
 
-Features
+##Features
 🔧 Core Functionality
 Multi-Platform Support: Scrape from Nykaa Fashion and Myntra
 Advanced Search: Automated product search with configurable parameters
@@ -44,19 +44,24 @@ pandas==2.0.3
 beautifulsoup4==4.12.2
 requests==2.31.0
 ```
-Installation & Setup
+##Installation & Setup
+``` bash
 git clone <repository-url>
 cd ...
 pip install -r requirements.txt
+```
 
-Install Chrome WebDriver:
+##Install Chrome WebDriver:
 
 Download ChromeDriver from https://chromedriver.chromium.org/
 Ensure ChromeDriver is in your system PATH
 Or use webdriver-manager for automatic management
 
 🚀 Quick Start - Nykaa Fashion Scraper
+``` bash
 python nyakaa_new.py
+python myntra_new.py
+```
 
 
 
