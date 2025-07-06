@@ -273,9 +273,9 @@ def main():
     # Define search terms
     search_terms = [
         "white shirt",
-        #   "black dress", "denim jeans", "summer kurti", 
-        # "co-ord set", "oversized t-shirt", "sneakers", "blue linen pants",
-        # "pink blazer for women", "yellow maxi dress"
+        "black dress", "denim jeans", "summer kurti", 
+        "co-ord set", "oversized t-shirt", "sneakers", "blue linen pants",
+        "pink blazer for women", "yellow maxi dress"
     ]
     
     # Initialize scraper
